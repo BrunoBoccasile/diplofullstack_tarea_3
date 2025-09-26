@@ -33,12 +33,14 @@ El objetivo es practicar la creación de clases con propiedades y métodos, la s
 
 - Función cargarTareas() → devuelve una promesa que simula carga de datos inicial con setTimeout (2 segundos).
 
-### Flujo del programa (con async/await)
+### Flujo del programa
 
-- Espera la carga inicial de tareas.
-- Muestra en consola: "Tareas cargadas correctamente".
-- Lista las tareas iniciales.
-- Permite agregar una nueva tarea y volver a mostrar el listado.
+- Se cargan las tareas presionando el botón.
+- Muestra en consola que las tareas han sido creadas después de dos segundos.
+- Permite carga una nueva tarea ingresando título.
+- Permite buscar una tarea por título.
+- Permite establecer una tarea como completada.
+- Muestra todas las tareas por consola
 - Filtra y muestra las tareas completadas.
 
 ## Fuentes
