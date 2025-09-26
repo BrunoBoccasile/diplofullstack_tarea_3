@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Gestor de tareas</h1>
+    <h2>Cargar tareas</h2>
+    <button type="button" id="boton_cargar_tareas">Cargar</button>
+    <hr>
+    <h2>Agregar tarea</h2>
+    <form id="form_agregar_tarea">
+        <label for="titulo">Título: </label>
+        <input type="text" id="input_titulo"></input>
+        <br>
+        <button type="submit" id="boton_submit_agregar_tarea">Agregar</button>
+    </form>
+    <span id="form_agregar_status"></span>
+    <hr>
+
+    <h2>Listar tareas</h2>
+    <button type="button" id="boton_listar_tareas">Ver tareas en consola</button>
+    <hr>
+
+    <h2>Listar tareas completadas</h2>
+    <button type="button" id="boton_listar_tareas_completadas">Ver tareas completadas en consola</button>
+
+    <form id="form_buscar_tarea">
+        <h2>Buscar por título</h2>
+        <label for="input_busqueda">Título: </label>
+        <input type="text" id="input_busqueda"></input>
+        <button type="submit" id="boton_submit_buscar_tarea">Buscar</button>
+    </form>
+    <span id="form_buscar_status"></span>
+    <hr>
+
+    <h2>Completar tarea</h2>
+    <form id="form_completar_tarea">
+        <label for="id">Ingrese id de la tarea: </label>
+        <input type="number" id="input_id"></input>
+        <br>
+        <button type="submit" id="boton_submit_completar_tarea">Completar</button>
+    </form>
+        <span id="form_completar_status"></span>
+
+</body>
+</html>
+<script src="./script.js" type="module"></script>
